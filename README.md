@@ -21,7 +21,7 @@ Usage:
 ### File Objects
 ```ruby
 file = File.open('/path/to/file', 'r')
-FileTypeDetectorTest::Extension.extension(file)
+FileTypeDetector::Extension.extension(file)
 # => '.jpg'
 ```
 
@@ -29,7 +29,7 @@ FileTypeDetectorTest::Extension.extension(file)
 
 ```ruby
 path = '/path/to/file'
-FileTypeDetectorTest::Extension.extension(path)
+FileTypeDetector::Extension.extension(path)
 # => '.jpg'
 ```
 
